@@ -6,7 +6,7 @@ def main():
     output_path = sys.argv[2]
     
     converter = GameConverter(input_path)
-    converter.read_pgn()
+    game = converter.read_pgn()
 
 
 if __name__ == '__main__':

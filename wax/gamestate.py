@@ -111,7 +111,6 @@ class GameState(object):
     ]
 
     bitboards = []
-    
 
     def __init__(self):
         self.bitboards = self.NEW_GAME
