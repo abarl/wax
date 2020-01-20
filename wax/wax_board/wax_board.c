@@ -1,5 +1,6 @@
 #include <inttypes.h>
 #include <math.h>
+#include <Python.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
