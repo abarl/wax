@@ -3,3 +3,4 @@ TO-DO
 *.pyc
 *.swp
 /wax/wax_board/bin/*
+/wax/.idea/*
