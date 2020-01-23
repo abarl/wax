@@ -2,12 +2,25 @@ from gamestate import GameState
 
 
 class WaxGame:
-    game_states = []
-
     def __init__(self, meta_data={}):
-        self.game_states.append(GameState())
+        self.game_states = [GameState()]
+        self.event = ""
+        self.site = ""
+        self.white = ""
+        self.black = ""
+        self.result = ""
+        self.utc_date = ""
+        self.utc_time = ""
+        self.white_elo = ""
+        self.black_elo = ""
+        self.white_rating_diff = ""
+        self.black_rating_diff = ""
+        self.eco = ""
+        self.opening = ""
+        self.time_control = ""
+        self.termination = ""
         self.add_meta_data(meta_data)
-        
+
     def add_meta_data(self, meta_data):
         try:
             self.event = meta_data['event']
