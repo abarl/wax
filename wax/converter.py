@@ -3,7 +3,6 @@ from gamestate import GameState
 
 
 class GameConverter:
-
     def __init__(self, input_path):
         self.in_file = open(input_path)
 

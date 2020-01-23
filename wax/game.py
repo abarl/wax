@@ -40,6 +40,3 @@ class WaxGame:
             self.termination = meta_data['termination']
         except KeyError:
             pass
-
-
-
