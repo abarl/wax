@@ -1,5 +1,4 @@
 from game import WaxGame
-from gamestate import GameState
 
 
 class GameConverter:

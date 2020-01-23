@@ -1,7 +1,6 @@
 from bitarray import bitarray
 
 
-# noinspection SpellCheckingInspection
 class GameState:
     NEW_GAME = {
         "white pawns": bitarray("0000000011111111000000000000000000000000000000000000000000000000"),

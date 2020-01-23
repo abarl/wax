@@ -20,4 +20,4 @@ NEW_GAME = {
 
 def test_new_game():
     test_game = WaxGame()
-    assert test_game.game_states[0] == NEW_GAME
+    assert test_game.game_states[0].bitboards == NEW_GAME
