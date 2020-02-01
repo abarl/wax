@@ -4,3 +4,4 @@ TO-DO
 *.swp
 /wax/wax_board/bin/*
 /wax/.idea/*
+/env/*

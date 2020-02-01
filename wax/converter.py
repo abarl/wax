@@ -1,4 +1,4 @@
-from game import WaxGame
+from wax.game import WaxGame
 
 
 class GameConverter:

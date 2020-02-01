@@ -1,4 +1,4 @@
-from gamestate import GameState
+from wax.gamestate import GameState
 
 
 class WaxGame:

@@ -1,5 +1,6 @@
-from converter import GameConverter
+from wax.converter import GameConverter
 import sys
+
 
 def main():
     input_path = sys.argv[1]
